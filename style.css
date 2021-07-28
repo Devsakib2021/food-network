@@ -10,17 +10,20 @@
 }
 /* Style for navbar */
 nav{
-    text-align: right;
+   height: 50px;
+   text-align: right;
+   margin-right: 50px; 
 }
 nav ul li{
     display: inline-block;
-    padding: 10px 4px;
+    padding: 10px 10px;
 }
 nav ul li a{
     text-decoration: none;
     color:rgb(48, 44, 44);
 }
 /* Style for navbar end */
+
 
 /* header part style */
 h1{
@@ -35,7 +38,7 @@ h1{
 .order-section{
     height: 600px;
     background-repeat: no-repeat;
-    border: 1px solid red;
+    
 }
 .half-width{
     width: 45%;
@@ -90,32 +93,31 @@ h1{
 }
 .one-third-width{
     text-align: center;
-    width: 30%;
+    width: 27%;
     float: left;
-    margin-left: 3%;
-    box-shadow: 7px 10px 50px grey;
+    margin-left: 2%;
     border-radius: 10px;
-    height: 500px;
 }
 .one-third-width img{
     width: 80%;
-    padding: 5px;
+    padding: 10px;
     
+}
+.box-shadow-effect{
+    box-shadow: 7px 8px 60px grey;
+    padding: 20px 15px;
+    height: 450px;
 }
 
 /* recipe section end*/
 
-/* Css for about me section end*/
+
 
 
 /* Review section css */
 .review-section{
     height: 200px;
-    
-}
-.review{
-    display: inline-block;
-    
+    margin-bottom: 50px;
 }
 
 /* Review section css */
