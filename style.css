@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 *{
     margin:0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
 }
 /* Style for navbar */
 nav{
@@ -15,6 +20,7 @@ nav ul li a{
     text-decoration: none;
     color:rgb(48, 44, 44);
 }
+/* Style for navbar end */
 
 /* header part style */
 h1{
@@ -29,15 +35,22 @@ h1{
 .order-section{
     height: 600px;
     background-repeat: no-repeat;
+    border: 1px solid red;
 }
 .half-width{
-    width: 40%;
+    width: 45%;
     float: left;
-    margin-left: 2%;
-    padding-left:2%;
+    margin-left: 4%;
+    
+}
+.center-position{
+    padding-top: 150px;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
+}
+.half-width p{
+    margin-bottom: 40px;
 }
 .btn-style{
     background-color: #FD5131;
@@ -46,6 +59,9 @@ h1{
     padding: 2%;
     border-radius: 20px;
 }
+/* header part style */
+
+
 /* Css for about me section */
 .about{
     height: 600px;
@@ -54,16 +70,20 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .img-sizing img{
-    width: 80%;
-    margin-left: 50px;
+    width: 55%;
+    margin-left: 150px;
     
 }
-.my-recipe{
-    text-align: center;
-    margin-top: 30px;
-}
+/* About me end */
 
+
+/* recipe section */
+.my-recipe-text{
+    text-align: center;
+    margin: 50px 0;
+}
 .recipe{
     margin-top: 30px;
     height: 600px;
@@ -72,8 +92,7 @@ h1{
     text-align: center;
     width: 30%;
     float: left;
-    margin: 15px;
-    padding: 10px;
+    margin-left: 3%;
     box-shadow: 7px 10px 50px grey;
     border-radius: 10px;
     height: 500px;
@@ -83,6 +102,12 @@ h1{
     padding: 5px;
     
 }
+
+/* recipe section end*/
+
+/* Css for about me section end*/
+
+
 /* Review section css */
 .review-section{
     height: 200px;
@@ -90,8 +115,12 @@ h1{
 }
 .review{
     display: inline-block;
-    padding: 0 180px;
+    
 }
+
+/* Review section css */
+
+
 /* Footer section css */
 .footer-style{
     background-color: black;
@@ -108,6 +137,6 @@ footer h2{
  footer small{
     color: white;
 }
-
+/* Footer section css */
 
 
